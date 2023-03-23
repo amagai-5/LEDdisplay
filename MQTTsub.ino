@@ -13,8 +13,8 @@ uint8_t oePin = 16;
 Adafruit_Protomatter matrix(
 64, 4, 1, rgbPins, 4, addrPins, clockPin, latchPin, oePin, false);
 
-char* ssid = "TSE-EUROP";
-const char* password = "ESATSI-ISTASE";
+char* ssid = "SSID";
+const char* password = "WiFi-PASS";
 const char* mqtt_server = "192.168.8.213";
 WiFiClient espClient;
 PubSubClient client(espClient);
